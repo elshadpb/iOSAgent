@@ -13,7 +13,7 @@ let package = Package(
             targets: ["InstanaAgent"]),
     ],
     dependencies: [
-        .package(url: "https://github.com/1024jp/GzipSwift.git", from: "6.0.1")
+        .package(url: "https://github.com/1024jp/GzipSwift.git", from: "6.0.0")
     ],
     targets: [
         // Targets are the basic building blocks of a package. A target can define a module or a test suite.
